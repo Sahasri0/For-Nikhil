@@ -1,0 +1,56 @@
+body {
+    background-image: url('love-doodles_G1hLaY___M.jpg');
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-size: 50px;
+    color: #5E081E;
+  }
+  h3{
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+    color: #5E081E;
+  }
+  
+  .months {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: block;
+  }
+  
+  .month-button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #E48397;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    display: block;
+  }
+  
+  .month-button.unlocked {
+    background-color:#B51A3A;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 480px) {
+    .container {
+      max-width: 90%;
+      padding: 10px;
+    }
+  }
+  
